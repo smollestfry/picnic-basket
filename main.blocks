@@ -1,0 +1,60 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="J,De!%h_/Zo{U5PstdX|">Player</variable><variable type="KIND_SpriteKind" id="ZH4L]rGdXd#-Zd9e,lWH">Projectile</variable><variable type="KIND_SpriteKind" id="vy0l]_KxX/-y28[kitP[">Food</variable><variable type="KIND_SpriteKind" id="[E!S8LSh%vbU!fXBRCA:">Enemy</variable><variable id="z`q*!:WW{%x^[x#iluX=">picnicFood</variable><variable id=".{d@Pl3ovJr5_*M+aKEl">mySprite</variable></variables><block type="pxt-on-start" id="Cng:|yP*+qtrz1}Ov2,r" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="ip]2E.npXCb,RGnibz8B"><value name="img"><shadow type="background_image_picker" id="76!C,)^pYn[N;-h|$S42"><field name="img">img`
+31313131313131313131111111111111
+13131313131313131313111111111111
+11313131313131313131311111111111
+11131313131313131313131111111111
+11113131313131313131313111111111
+11111313131313131313131311111111
+11111131313131313131313131111111
+11111113131313131313131313111111
+11111111313131313131313131311111
+11111111131313131313131313131111
+11111111113131313131313131313111
+11111111111313131313131313131311
+11111111111131313131313131313131
+11111111111113131313131313131313
+11111111111111313131313131313131
+11111111111111131313131313131313
+11111111111111113131313131313131
+11111111111111111313131313131313
+11111111111111111131313131313131
+11111111111111111113131313131313
+11111111111111111111313131313131
+11111111111111111111131313131313
+11111111111111111111113131313131
+11111111111111111111111111111111
+`</field><data>{"commentRefs":[],"fieldData":{"img":"76!C,)^pYn[N;-h|$S42"}}</data></shadow></value><next><block type="variables_set" id="2s!BT|s1fov9V9)LTMH9"><field name="VAR" id="z`q*!:WW{%x^[x#iluX=">picnicFood</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="GyijHk/xlQe$Xoey[6hc"><value name="img"><shadow type="screen_image_picker" id="wEzZOhVe~#=L8Xc6(oc+"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"wEzZOhVe~#=L8Xc6(oc+"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="8;de1bo{_!ioevR=;f2h"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetimage" id=",-fx,pE}gi_.3zTJ6v%i"><value name="sprite"><block type="variables_get" id="iGz4DKcUmZAc|2vrE.Qx"><field name="VAR" id="z`q*!:WW{%x^[x#iluX=">picnicFood</field></block></value><value name="img"><shadow type="screen_image_picker" id="?Q7w|MU-P$y6hxc8DZLf"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"?Q7w|MU-P$y6hxc8DZLf"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
