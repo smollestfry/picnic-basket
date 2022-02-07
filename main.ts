@@ -1,3 +1,13 @@
+function evaluateGuess (guess: string) {
+    for (let index = 0; index <= 4; index++) {
+        if (guess == descriptions[index]) {
+            info.changeScoreBy(1)
+        }
+    }
+}
+let descriptions: string[] = []
+info.setScore(0)
+let misses = 0
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -248,7 +258,7 @@ img`
     . . . . . . . . . . b b b a a . 
     `
 ]
-let descriptions = [
+descriptions = [
 "strawberry",
 "chicken",
 "apple",
@@ -278,4 +288,5 @@ picnicFood.setImage(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `)
-let userInput = game.askForString("what was in Yogi's basket?")
+let guess = game.askForString("what was in Yogi's basket?")
+evaluateGuess(guess)
